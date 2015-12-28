@@ -1,0 +1,31 @@
+[color]
+	ui = auto
+[user]
+	name = 
+	email = 
+[alias]
+	a = add
+	ci = commit
+	co = checkout
+	b = branch
+	s = status -s
+	l = log
+	aa = add .
+	cg = config --global
+	t = log --graph --decorate --oneline --abbrev-commit
+	tb = log --graph --branches --remotes --oneline --abbrev-commit
+	tt = log --graph --tags --remotes --oneline --abbrev-commit
+    fe = fetch
+    di = diff
+    cp = cherry-pick
+    sh = show
+    shf = show --name-status
+    ap = apply
+    ppd = log --date=short --pretty=format:\"%h%x09%an%x09%ad%x09%s\" --no-merges --name-status
+	ta = log --graph --decorate --oneline --abbrev-commit --all
+[core]
+	editor = emacs -Q
+	preloadindex = true
+	filemode = false
+[rerere]
+	enabled = true
